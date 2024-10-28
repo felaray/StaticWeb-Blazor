@@ -44,15 +44,15 @@ jobs:
           # Enter SMTP port. (defaults to 465)
           port: 587 
           # Enter SMTP host account.
-          account: ${{ secrets.o365account }}
+          account: ${{ secrets.O365ACCOUNT }}
           # Enter SMTP host account password.
-          password:  ${{ secrets.o365pwd }}
+          password:  ${{ secrets.O365PWD }}
           # Enter sender name.
-          sender:  ${{ secrets.o365sender }}
+          sender:  ${{ secrets.O365SENDER }}
           # Enter sender mail.
-          from: ${{ secrets.o365account }}
+          from: ${{ secrets.O365ACCOUNT }}
           # Enter recipient emails and separated with 'comma'. (The prefix 'file://' if you want to read a file)
-          to: ${{ secrets.o365account }}
+          to: ${{ secrets.O365ACCOUNT }}
           # Enter the subject of the mail. (The prefix 'file://' if you want to read a file)
           subject: "email test"
           # Enter the body of the mail. (The prefix 'file://' if you want to read a file)
