@@ -46,7 +46,7 @@ jobs:
           # Enter SMTP host account.
           account: ${{ secrets.o365account }}
           # Enter SMTP host account password.
-          password:  ${{ secrets.o365account }}
+          password:  ${{ secrets.o365pwd }}
           # Enter sender name.
           sender:  ${{ secrets.o365sender }}
           # Enter sender mail.
